@@ -1,0 +1,27 @@
+# Ignore datasets and audio files
+*.wav
+*.mp3
+data_wav/
+fma_small/
+spectrogram_dataset_windowed/
+fma_metadata/
+
+# Ignore heavy models and features
+*.pkl
+*.npy
+*.npz
+*.h5
+models/
+
+# Ignore images and figures
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
