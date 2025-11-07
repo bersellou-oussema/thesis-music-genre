@@ -1,0 +1,8 @@
+0	Electronic
+1	Experimental
+2	Folk
+3	Hip-Hop
+4	Instrumental
+5	International
+6	Pop
+7	Rock

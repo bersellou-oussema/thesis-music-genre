@@ -1,0 +1,12 @@
+{
+  "sr": 22050,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "n_mels": 128,
+  "fmin": 20,
+  "fmax": 8000,
+  "top_db_trim": 40,
+  "target_rms": 0.05,
+  "clip_sec": 29.0,
+  "ref_power_eps": 1e-10
+}
