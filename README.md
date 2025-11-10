@@ -27,11 +27,10 @@ Only overlapping genres (*Pop* and *Rock*) were used for some cross-dataset expe
 - Random Forest → ~46% (GTZAN)
 
 ### Deep Learning
-- CNN (Mel-spectrograms) → ~51.9% (GTZAN)
-- ResNet50 (transfer learning) → ~28% (GTZAN)
+- CNN (Mel-spectrograms) → ~59% (GTZAN)
+- ResNet50 (transfer learning) → 63%(GTZAN)
 
 ### Transfer Learning + Classical ML (EfficientNetV2 features)
-- GTZAN + RBF-SVM → ~94.7%
 - FMA + RFF + LinearSVC → ~55.9%
 - Overlap (GTZAN + FMA merged, Pop & Rock) → ~77.9%
 - Cross-dataset GTZAN → FMA → ~55.6%
@@ -39,9 +38,9 @@ Only overlapping genres (*Pop* and *Rock*) were used for some cross-dataset expe
 
 ## 📊 Results Summary
 - Classical ML provided a **baseline** (~46%).  
-- CNN improved slightly (~52%).  
-- ResNet50 underperformed (~28%).  
-- EfficientNetV2 features + SVM achieved the **best performance** (~95% on GTZAN).  
+- CNN improved slightly (~59%).  
+- ResNet50 underperformed (~63%).  
+- EfficientNetV2 features + SVM achieved the **best performance** (~68% on GTZAN).  
 - Cross-dataset experiments highlighted domain shift (55–59%).  
 
 ## 🚀 How to Run
